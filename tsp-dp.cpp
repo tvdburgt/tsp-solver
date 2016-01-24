@@ -106,7 +106,7 @@ int main(int argc, char *argv[])
 	nset = 1 << n;
 
 	list<int> cycle;
-	double cycle_dist;
+	double cycle_dist = 0.0;
 
 	// Distance matrix
 	dist_vec dist(n, vector<double>(n));
